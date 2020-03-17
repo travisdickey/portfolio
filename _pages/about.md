@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-I am an educator. I love to learn and share my learning with others. I invite you to look over my [resume](https://drive.google.com/file/d/1O86YgpvalQyzSRGsX0ePI75rDjMVRSR/view?usp=sharing){:target="_blank"} and explore the samples in this [portfolio](https://travisdickey.github.io/portfolio) to get a feel for who I am and the type of work I do.
+I am an educator. I love to learn and share my learning with others. I invite you to look over my [resume](https://drive.google.com/file/d/1086YgpvaIQyzSRGsX0lePI75rDjMVRSR/view?usp=sharing){:target="_blank"} and explore the samples in this [portfolio](https://travisdickey.github.io/portfolio) to get a feel for who I am and the type of work I do.
 
 I have spent 20+ years in K-12 schools, the past 11 as a leader. I started out as an English teacher and coach and held a couple of public relations positions before moving into leadership. Currently, I am an Assistant Principal, leading the [Effingham College & Career Academy's](https://www.effinghamschools.com/Domain/1611){:target="_blank"} pursuit toward STEM certifiation. 
 
