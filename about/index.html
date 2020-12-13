@@ -2,9 +2,10 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>About Me | Portfolio</title>
-<meta name="generator" content="Jekyll v4.0.0" />
+<meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="About Me" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Samples of work through my 20+ year career" />
@@ -13,49 +14,23 @@
 <meta property="og:url" content="https://travisdickey.github.io/portfolio/about/" />
 <meta property="og:site_name" content="Portfolio" />
 <script type="application/ld+json">
-{"description":"Samples of work through my 20+ year career","@type":"WebSite","url":"https://travisdickey.github.io/portfolio/about/","name":"Portfolio","headline":"About Me","@context":"https://schema.org"}</script>
+{"url":"https://travisdickey.github.io/portfolio/about/","headline":"About Me","@type":"WebSite","name":"Portfolio","description":"Samples of work through my 20+ year career","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/portfolio/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://travisdickey.github.io/portfolio/feed.xml" title="Portfolio" /><script async src="https://www.googletagmanager.com/gtag/js?id=UA-159957120-2"></script>
-<script>
-  window['ga-disable-UA-159957120-2'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<link rel="stylesheet" href="/portfolio/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://travisdickey.github.io/portfolio/feed.xml" title="Portfolio" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
-  gtag('config', 'UA-159957120-2');
-</script>
-<link rel="shortcut icon" type="image/x-icon" href="/portfolio/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>About Me | Portfolio</title>
-<meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="About Me" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Samples of work through my 20+ year career" />
-<meta property="og:description" content="Samples of work through my 20+ year career" />
-<link rel="canonical" href="https://travisdickey.github.io/portfolio/about/" />
-<meta property="og:url" content="https://travisdickey.github.io/portfolio/about/" />
-<meta property="og:site_name" content="Portfolio" />
-<script type="application/ld+json">
-{"description":"Samples of work through my 20+ year career","@type":"WebSite","url":"https://travisdickey.github.io/portfolio/about/","name":"Portfolio","headline":"About Me","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
 
-<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
-<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://travisdickey.github.io/portfolio/feed.xml" title="Portfolio" /><script async src="https://www.googletagmanager.com/gtag/js?id=UA-159957120-2"></script>
-<script>
-  window['ga-disable-UA-159957120-2'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-159957120-2');
-</script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-159957120-2','auto');ga('require','displayfeatures');ga('send','pageview');</script>
 
+<link rel="shortcut icon" type="image/x-icon" href="/portfolio/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 
 <script>
 function wrap_img(fn) {
     if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
         var elements = document.querySelectorAll(".post img");
         Array.prototype.forEach.call(elements, function(el, i) {
-            if (el.getAttribute("title")) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
                 const caption = document.createElement('figcaption');
                 var node = document.createTextNode(el.getAttribute("title"));
                 caption.appendChild(node);
@@ -79,7 +54,8 @@ window.onload = wrap_img;
     elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
     });
 </script>
-</head><body><header class="site-header">
+</head>
+<body><header class="site-header">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/portfolio/">Portfolio</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -103,22 +79,12 @@ window.onload = wrap_img;
   </header>
 
   <div class="post-content">
-    <p>I am an educator. I love to learn and share my learning with others. I invite you to look over my <a href="https://drive.google.com/file/d/1086YgpvaIQyzSRGsX0lePI75rDjMVRSR/view?usp=sharing" target="_blank">resume</a> and explore the samples in this <a href="https://travisdickey.github.io/portfolio">portfolio</a> to get a feel for who I am and the type of work I do.</p>
-
-<p>I have spent 20+ years in K-12 schools, the past 11 as a leader. I started out as an English teacher and coach and held a couple of public relations positions before moving into leadership. Currently, I am an Assistant Principal, leading the <a href="https://www.effinghamschools.com/Domain/1611" target="_blank">Effingham College &amp; Career Academy’s</a> pursuit toward STEM certifiation.</p>
-
-<p>Outside of work, I enjoy my family, playing tennis, and pursuing whatever learning challenges strike my fancy. I love to read, particularly literary nonfiction. A few years ago, I began to venture into new learning territory, narrating a few audibooks under the pseudonym <a href="https://www.audible.com/search?ref=a_search_c1_sort_1&amp;pf_rd_p=073d8370-97e5-4b7b-be04-aa06cf22d7dd&amp;pf_rd_r=6G2XTAKQZR1W6DD4N5Z7&amp;searchNarrator=Wayne+Paige&amp;feature_seven_browse-bin=9178191011&amp;feature_seven_browse-bin=9178192011&amp;feature_seven_browse-bin=9178193011&amp;sort=pubdate-desc-rank" target="_blank">Wayne Paige</a>. Strangely enough, this led me to an interest in data science, machine learning, and deep learning, so for the past three years, I have pursued that interest through courses at <a href="https://www.udacity.com/courses/all" target="_blank">Udacity</a><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup> and <a href="https://www.fast.ai" target="_blank">fast.ai</a><sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup> and data science competitions at <a href="https://www.kaggle.com/twdickey43" target="_blank">kaggle</a><sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote">3</a></sup>.</p>
+    <p>This website is powered by <strong><a href="https://github.com/fastai/fastpages">fastpages</a></strong> <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>.</p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
-      <p>A project-based, hands-on learning website focusing on computer science and IT topics <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2" role="doc-endnote">
-      <p>An open-source deep learning library with tons of tutorials for how to use it <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:3" role="doc-endnote">
-      <p>A website that hosts data science competitions and promotes the education of machine learning and deep learning <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p>a blogging platform that natively supports Jupyter notebooks in addition to other formats. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
