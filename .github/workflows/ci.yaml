@@ -30,6 +30,16 @@ jobs:
       with:
         persist-credentials: false
 
+    - name: Install image tools
+      run: |
+        sudo apt-get update -qq
+        sudo apt-get install -y -qq webp imagemagick
+
+    - name: Optimize images (WebP + responsive variants)
+      run: |
+        chmod +x _scripts/optimize_images.sh
+        ./_scripts/optimize_images.sh
+
     - name: convert notebooks and word docs to posts
       uses: ./_action_files
 
